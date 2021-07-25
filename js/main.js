@@ -1,6 +1,7 @@
 jQuery(document).ready(function(){
      
     "use strict";
+    $(this).scrollTop(0);
      $('#slider-carousel').carouFredSel({
          responsive:true,
          width:'100%',
