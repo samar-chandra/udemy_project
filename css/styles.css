@@ -114,7 +114,7 @@ header nav ul li a:hover{
 
 .sub-heading{
     position:relative;
-    margin-bottom: 80px;;
+    margin-bottom: 80px;
 }
 
 .sub-heading:before{
@@ -392,3 +392,37 @@ header nav ul li a:hover{
     margin-left: 200px;
 }
 
+.testimonials{
+    padding-top:120px;
+    padding-bottom:120px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/slider3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:white;
+}
+
+.testimonials .carousel-indicators{
+    bottom:-60px;
+}
+
+.testimonials .sub-heading p{
+    color:white;
+}
+
+.testimonials .carousel-inner img{
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+    padding: 2px;
+    border: 2px solid deepskyblue;
+}
+
+.testimonials .carousel-indicators li.active{
+    background-color: deepskyblue;
+}
+
+.testimonials .carousel-indicators li{
+    border-color: deepskyblue;
+}
