@@ -1,0 +1,103 @@
+.slicknav_menu {
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    .slider {
+        margin-top: 112px;
+    }
+    header {
+        margin-top: -112px;
+        background-color: deepskyblue;
+    }
+    #menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: inline-block;
+        position: fixed;
+        z-index: 1000;
+        right: 0;
+        background: transparent;
+        margin-top: -112px;
+    }
+    .slicknav_btn {
+        margin: 35px 30px 0 0;
+        background-color: orange;
+    }
+    .slicknav_nav {
+        background-color: deepskyblue;
+        width: 200px;
+    }
+    .slicknav_nav li {
+        margin: 0px;
+        padding: 0px;
+        height: 3em;
+        line-height: 3em;
+        width: 200px;
+        border-bottom: 1px solid white;
+        text-align: center;
+    }
+    .slicknav_nav li a {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        -webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+        -ms-transition: 0.3s ease;
+        transition: 0.3s ease;
+    }
+    .slicknav_nav li a:hover {
+        color: red;
+        background: transparent;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .feature-mockup img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:373px) {
+    .slider a.btn {
+        display: block;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .divider {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .more-feature-area img {
+        display: none;
+    }
+    .feature-list {
+        text-align: center;
+    }
+    .feature-list .list-feature-icon i {
+        display: none;
+    }
+    .feature-list li {
+        padding: 0;
+    }
+    .single-feature {
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid deepskyblue;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .social-button a {
+        display: block;
+        width: 80%;
+    }
+}
