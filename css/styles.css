@@ -5,6 +5,10 @@ body {
     padding: 0%;
 }
 
+.logo img {
+    width: 450px;
+}
+
 html {
     overflow: scroll;
     overflow-x: hidden;
@@ -88,8 +92,12 @@ header nav ul li a:hover {
 }
 
 .slider i {
-    font-size: 30px;
+    font-size: 60px;
     margin-right: 10px;
+}
+
+.slider .btn i {
+    font-size: 20px;
 }
 
 .slider,

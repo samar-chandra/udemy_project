@@ -23,7 +23,8 @@
     }
     .slicknav_btn {
         margin: 35px 30px 0 0;
-        background-color: orange;
+        background-color: deepskyblue;
+        border: 2px solid white;
     }
     .slicknav_nav {
         background-color: deepskyblue;
@@ -99,5 +100,8 @@
     .social-button a {
         display: block;
         width: 80%;
+    }
+    .logo img {
+        width: 80vw;
     }
 }
