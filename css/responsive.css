@@ -62,17 +62,14 @@
     }
 }
 
-@media screen and (max-width:373px) {
+@media screen and (max-width:470px) {
+    .divider {
+        text-align: center;
+    }
     .slider a.btn {
         display: block;
         width: 100%;
         margin: 0 0 10px 0;
-    }
-}
-
-@media screen and (max-width:470px) {
-    .divider {
-        text-align: center;
     }
 }
 
