@@ -224,8 +224,12 @@ header nav ul li a:hover{
 }
 
 .feature-area{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/slider3.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/bg-brick.jpg);
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -395,8 +399,12 @@ header nav ul li a:hover{
 .testimonials{
     padding-top:120px;
     padding-bottom:120px;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/slider3.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/bg-brick.jpg);
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -442,7 +450,7 @@ header nav ul li a:hover{
     border-radius:50%;
     left:50%;
     margin-left:-50px;
-    margin-bottom: -50px;
+    margin-bottom: -80px;
 }
 
 .team-man img{
@@ -459,7 +467,7 @@ header nav ul li a:hover{
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 40px;
+    padding-top: 70px;
     margin-bottom: 5px;
 }
 
@@ -477,7 +485,7 @@ header nav ul li a:hover{
 }
 
 .team-description{
-    background-color:white;
+    background-color:#f5f5f5;
 }
 
 .team-social-network{
@@ -503,10 +511,11 @@ header nav ul li a:hover{
 .team-block{
     position: relative;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .team-block:hover .team-description{
-    background-color: deepskyblue;
+    background-color: dodgerblue;
     -webkit-transition:0.5s ease;
     -moz-transition:0.5s ease;
     -o-transition:0.5s ease;
@@ -535,4 +544,84 @@ header nav ul li a:hover{
     -ms-transition:0.5s ease;
     transition:0.5s ease;
 
+}
+
+.team-block:hover .team-man{
+    border:10px solid dodgerblue;
+    -webkit-transition:0.5s ease;
+    -moz-transition:0.5s ease;
+    -o-transition:0.5s ease;
+    -ms-transition:0.5s ease;
+    transition:0.5s ease;
+}
+
+.download .title{
+    text-align: center;
+}
+
+.download .title h2{
+    color:white;
+}
+
+.download .title .sub-heading p{
+    color:white;
+}
+
+.download{
+    background-image:linear-gradient(rgba(0,0,0.7),rgba(0,0,0,0.7)) ,url(../images/bg-brick.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.download .default-btn{
+    background: transparent;
+    border:1px solid white;
+    color:white;
+    font-size: 20px;
+    padding: 8px 40px;
+    margin:12px;
+}
+
+.download .default-btn:hover{
+    background-color: white;
+    border-color: deepskyblue;
+    color:deepskyblue;
+    -webkit-transition:0.5s ease;
+    -moz-transition:0.5s ease;
+    -o-transition:0.5s ease;
+    -ms-transition:0.5s ease;
+    transition:0.5s ease;
+}
+
+.download .fab{
+    margin-right: 10px;
+}
+
+.social-button{
+    text-align: center;
+    margin-left: 68px;
+}
+
+.download{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-area{
+    margin:100px 0px 100px 0px;
+    text-align: center;
+}
+
+.contact-area .title h2{
+    color:black;
+}
+
+.contact-area .title p{
+    color:gray;
 }
