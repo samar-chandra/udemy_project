@@ -381,7 +381,12 @@ p {
 
 .feature-mockup {
     position: relative;
-    bottom: -122px;
+    bottom: -3px;
+    right: 200px;
+}
+
+.feature-mockup img {
+    width: 700px;
 }
 
 .title .sub-heading p {
@@ -449,12 +454,13 @@ p {
 
 .more-feature-area img {
     margin-left: 200px;
+    width: 600px;
 }
 
 .testimonials {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg-brick.jpg);
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg-brick.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -463,15 +469,15 @@ p {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: white;
+    color: white;*/
 }
 
 .testimonials .carousel-indicators {
     bottom: -60px;
 }
 
-.testimonials .sub-heading p {
-    color: white;
+.testimonials .carousel-inner p {
+    color: gray;
 }
 
 .testimonials .carousel-inner img {
@@ -488,10 +494,6 @@ p {
 
 .testimonials .carousel-indicators li {
     border-color: deepskyblue;
-}
-
-.team-area {
-    margin-top: 100px;
 }
 
 .team-man {
@@ -814,4 +816,21 @@ footer {
     border-bottom: 2px solid white;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+.testimonials .carousel-inner a {
+    color: white;
+    background-color: deepskyblue;
+    border: 2px solid deepskyblue;
+    margin-bottom: 20px;
+}
+
+.testimonials .carousel-inner .hoverbtn:hover a {
+    color: deepskyblue;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.testimonials .carousel-inner .active {
+    background-color: #f7f7f7;
 }
