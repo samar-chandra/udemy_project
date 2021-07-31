@@ -3,6 +3,10 @@
 }
 
 @media screen and (max-width:992px) {
+    .slider h2 {
+        margin-top: 135px;
+        font-weight: bold;
+    }
     .slider {
         margin-top: 112px;
     }
