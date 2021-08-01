@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:1200px) {
     .slider h2 {
         margin-top: 135px;
         font-weight: bold;
@@ -57,6 +57,9 @@
         color: red;
         background: transparent;
         text-decoration: none;
+    }
+    .team-block {
+        width: 100%;
     }
 }
 
