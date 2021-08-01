@@ -14,7 +14,7 @@ body {
 }
 
 .logo img {
-    width: 400px;
+    width: 425px;
 }
 
 html {
@@ -67,10 +67,10 @@ header nav {
 }
 
 header nav ul li a {
-    padding-right: 30px;
+    padding-right: 20px;
     color: white;
     transition: all 0.5s ease-in;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 header nav ul li a:hover,
@@ -511,7 +511,7 @@ p {
 }
 
 .team-area {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .team-man {
